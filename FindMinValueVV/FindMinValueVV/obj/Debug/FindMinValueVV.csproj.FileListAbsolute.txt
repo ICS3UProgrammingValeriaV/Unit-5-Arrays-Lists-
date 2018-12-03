@@ -1,0 +1,9 @@
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Veverita, Valeria (s449619)\Unit 5 (Arrays & Lists)\FindMinValueVV\FindMinValueVV\bin\Debug\FindMinValueVV.exe.config
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Veverita, Valeria (s449619)\Unit 5 (Arrays & Lists)\FindMinValueVV\FindMinValueVV\bin\Debug\FindMinValueVV.exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Veverita, Valeria (s449619)\Unit 5 (Arrays & Lists)\FindMinValueVV\FindMinValueVV\bin\Debug\FindMinValueVV.pdb
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Veverita, Valeria (s449619)\Unit 5 (Arrays & Lists)\FindMinValueVV\FindMinValueVV\obj\Debug\FindMinValueVV.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Veverita, Valeria (s449619)\Unit 5 (Arrays & Lists)\FindMinValueVV\FindMinValueVV\obj\Debug\FindMinValueVV.frmMinValue.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Veverita, Valeria (s449619)\Unit 5 (Arrays & Lists)\FindMinValueVV\FindMinValueVV\obj\Debug\FindMinValueVV.Properties.Resources.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Veverita, Valeria (s449619)\Unit 5 (Arrays & Lists)\FindMinValueVV\FindMinValueVV\obj\Debug\FindMinValueVV.csproj.GenerateResource.Cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Veverita, Valeria (s449619)\Unit 5 (Arrays & Lists)\FindMinValueVV\FindMinValueVV\obj\Debug\FindMinValueVV.exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Veverita, Valeria (s449619)\Unit 5 (Arrays & Lists)\FindMinValueVV\FindMinValueVV\obj\Debug\FindMinValueVV.pdb
