@@ -30,10 +30,10 @@ namespace ListsValeriaV
             int average = 0;
             int sum = 0;
             //loop through each element in the list 
-            for (int index = 0; index < tmpList.Count; index = 0)
+            foreach (int value in tmpList)
             {
                 //calculate the sum of the elemts in the list
-                sum = sum + tmpList[index];
+                sum = sum + value;
                 Console.WriteLine(sum);
             }
             //divide the sum by the number of elements in the list to find the average

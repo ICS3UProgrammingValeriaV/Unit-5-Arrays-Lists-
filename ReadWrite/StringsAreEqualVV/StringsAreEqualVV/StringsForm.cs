@@ -22,6 +22,8 @@ namespace StringsAreEqualVV
         public frmStrings()
         {
             InitializeComponent();
+            //hide the instruction
+            lblAnswer.Hide();
         }
 
         /*
@@ -65,33 +67,38 @@ namespace StringsAreEqualVV
         }
         private void btnCheck_Click(object sender, EventArgs e)
         {
-            //declare local variables and get the strings from the user
-            string userString1, userString2;
-            userString1 = txtString1.Text;
-            userString2 = txtString2.Text;
-            
+            //create a local array 
+            //Read each line of the file into the string array
+            string[] lines = System.IO.File.ReadAllLines(@"input.txt");
 
-            //declare and set the boolena variable to false
-           bool userCheck = false;
-            //call the StringsAreEqual function and pass teh strings to the function
-            //set the userCheck to equal the return boolean 
-            userCheck = StringsAreEqual(userString1, userString2);
+            //characters that I want to take out when spliting the lines of txt
+            char[] separators = new char[] { ' ', '\t' };
 
-            //check if the boolean variable is true, display to the user that the strings are equal
-            if (userCheck == true)
+            //output string
+            string output = " ";
+
+            //Split each line into words and add them to lines array
+            foreach(string line in lines)
             {
-                MessageBox.Show("The strings are the same");
+                string[] words = line.Split(separators, StringSplitOptions.RemoveEmptyEntries);
+
+
+                //check if the strings are equal
+                if (StringsAreEqual(words[0], words[1]) == true)
+                {
+                    output = output + "True\r\n";
+                }
+                else
+                {
+                    output = output + "False\r\n";
+                }
             }
-            //check if the boolean variable is false, display to the user that the strings are not equal
-            else if (userCheck == false)
-            {
-                MessageBox.Show("The strings are not the same");
-            }
-            //if the function doesn't return anything, display to the console "Error"
-            else
-            {
-                Console.WriteLine("Error");
-            }
+
+            //write the output to a new text file
+            System.IO.File.WriteAllText(@"output.txt", output);
+
+            //show the user the instruction
+            lblAnswer.Show();
         }
     }
 }
